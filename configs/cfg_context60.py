@@ -7,21 +7,21 @@ model = dict(
     model_name = 'ViT-B/16',
     img_engineering = True,
     dataset_name = dataset_name,
-    auxiliary_text_path = f'/mnt/disk2/arda_efe/graduation/ITACLIP/llama_generated_texts/{dataset_name}_definitions.txt',
+    auxiliary_text_path = f'/ITACLIP/llama_generated_texts/{dataset_name}_definitions.txt',
     slide_stride = 28, 
     attn_self = True,
     def_coefficient = 0.15,
     img_eng_coefficient = 0.75,
     pamr_steps = 10,
     device = 'cuda:0',
-    name_path=f'/mnt/disk2/arda_efe/graduation/ITACLIP/configs/cls_{dataset_name}.txt',
+    name_path=f'/ITACLIP/configs/cls_{dataset_name}.txt',
     logit_scale = 55,
     prob_thd = 0.1
 )
 
 # dataset settings
 dataset_type = 'PascalContext60Dataset'
-data_root = '/mnt/disk2/arda_efe/datasets/VOCdevkit/VOC2010'
+data_root = ' '
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
