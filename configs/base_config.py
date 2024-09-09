@@ -1,6 +1,6 @@
 # base configurations
 model = dict(
-    type='CLIPForSegmentation',
+    type='ITACLIP_Segmentor',
     model_name='ViT-B/16'
 )
 
