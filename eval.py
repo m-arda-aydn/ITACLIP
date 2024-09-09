@@ -8,7 +8,7 @@ from mmengine.runner import Runner
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description='SCLIP evaluation with MMSeg')
+        description='ITACLIP evaluation with MMSeg')
     parser.add_argument('--config', default='')
     parser.add_argument('--work-dir', default='./work_dir/')
     parser.add_argument(
