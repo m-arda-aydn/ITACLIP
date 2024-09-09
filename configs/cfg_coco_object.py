@@ -7,7 +7,7 @@ model = dict(
     model_name = 'ViT-B/16',
     img_engineering = True,
     dataset_name = dataset_name,
-    auxiliary_text_path = f'/mnt/disk2/arda_efe/graduation/ITACLIP/llama_generated_texts/{dataset_name}_synonyms.txt',
+    auxiliary_text_path = f'/llama_generated_texts/{dataset_name}_synonyms.txt',
     slide_stride = 28,
     attn_self = True,
     def_coefficient = 0.1,
@@ -15,14 +15,14 @@ model = dict(
     pamr_steps = 10,
     width_chunk_size = 150, # This variable helps reduce GPU memory consumption when the text expansion technique is applied. The default values are optimized for a 24 GB GPU.
     device = 'cuda:0',
-    name_path=f'/mnt/disk2/arda_efe/graduation/ITACLIP/configs/cls_{dataset_name}.txt',
+    name_path=f'/cls_{dataset_name}.txt',
     logit_scale=50,
     prob_thd=0.1
 )
 
 # dataset settings
 dataset_type = 'COCOObjectDataset'
-data_root = '/mnt/disk2/arda_efe/datasets/coco_object'
+data_root = ' '
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
