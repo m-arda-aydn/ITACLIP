@@ -3,18 +3,18 @@ _base_ = './base_config.py'
 dataset_name = 'voc21'
 # model settings
 model = dict(
-    type='ITACLIP2_Segmentor',
+    type='ITACLIP_Segmentor',
     model_name = 'ViT-B/16',
-    img_engineering = False,
+    img_engineering = True,
     dataset_name = dataset_name,
-    auxiliary_text_path = f'/mnt/disk2/arda_efe/graduation/ITACLIP/llama_generated_texts/{dataset_name}_definitions.txt',
-    slide_stride = 112,
+    auxiliary_text_path = f'/ITACLIP/llama_generated_texts/{dataset_name}_definitions.txt',
+    slide_stride = 28,
     attn_self = True,
     def_coefficient = 0.05,
     img_eng_coefficient = 0.7,
-    # pamr_steps = 10,
+    pamr_steps = 10,
     device = 'cuda:0',
-    name_path=f'/mnt/disk2/arda_efe/graduation/ITACLIP/configs/cls_{dataset_name}.txt',
+    name_path=f'/ITACLIP/configs/cls_{dataset_name}.txt',
     logit_scale = 60,
     prob_thd = 0.1,
     area_thd = 0.1
@@ -22,7 +22,7 @@ model = dict(
 
 # dataset settings
 dataset_type = 'PascalVOCDataset'
-data_root = '/mnt/disk2/arda_efe/datasets/VOCdevkit/VOC2012'
+data_root = ' '
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
