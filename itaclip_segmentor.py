@@ -17,7 +17,7 @@ from pamr import PAMR
 
 
 @MODELS.register_module()
-class ITACLIP2_Segmentor(BaseSegmentor):
+class ITACLIP_Segmentor(BaseSegmentor):
     def __init__(self, model_name, name_path, dataset_name, device=torch.device('cuda'), pretrained = None,
                     train_cfg = None, pamr_steps=0, pamr_stride=(8, 16), prob_thd=0.0, logit_scale=40, 
                     slide_stride=112, slide_crop=224, area_thd=None, img_engineering = False, auxiliary_text_path = None, 
