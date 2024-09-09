@@ -1,0 +1,60 @@
+background
+aeroplane
+bag
+bed
+bedclothes
+bench
+bicycle
+bird
+boat
+book
+bottle
+building
+bus
+cabinet
+car
+cat, feline
+ceiling
+chair, seat
+cloth
+computer
+cow
+cup
+curtain
+dog
+door
+fence
+floor
+flower
+food
+grass
+ground
+horse
+keyboard
+light
+motorbike, motorcycle
+mountain
+mouse
+person, person in shirt, person in jeans, person in dress, person in sweater, person in skirt, person in jacket, person in hat, body
+plate
+platform
+pottedplant
+road
+rock
+sheep
+shelves
+sidewalk
+sign
+sky
+snow
+sofa
+table
+track
+train
+tree
+truck
+tvmonitor, television monitor, monitor, television, screen
+wall
+water
+window
+wood 

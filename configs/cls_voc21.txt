@@ -1,0 +1,21 @@
+sky, wall, tree, wood, grass, road, mountain, sands, desk, bed, building, lamp, door, window, wardrobe, ceiling, shelf, curtain, stair, floor, fence, ground, water, railway, helmet, house, bridge, sign, keyboard, refrigerator, bench, sink, laptop, clock, blanket, branch, bush, cabinet, clouds, cupboard, pavement, platform, roof, sea
+aeroplane
+bicycle
+bird, avian
+ship
+bottle
+bus
+car
+cat, feline
+chair, seat
+cow
+table
+dog
+horse
+motorbike, motorcycle
+person, person in shirt, person in jeans, person in dress, person in sweater, person in skirt, person in jacket, person in hat, body
+pottedplant
+sheep
+sofa
+train
+television monitor, tv monitor, monitor, television, screen
