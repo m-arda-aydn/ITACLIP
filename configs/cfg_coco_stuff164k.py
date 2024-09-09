@@ -6,7 +6,7 @@ model = dict(
     type='ITACLIP_Segmentor',
     model_name = 'ViT-B/16',
     img_engineering = True,
-    auxiliary_text_path = f'/mnt/disk2/arda_efe/graduation/ITACLIP/llama_generated_texts/{dataset_name}_definitions.txt',
+    auxiliary_text_path = f'/llama_generated_texts/{dataset_name}_definitions.txt',
     dataset_name = dataset_name,
     slide_stride = 28,
     attn_self = True,
@@ -15,13 +15,13 @@ model = dict(
     width_chunk_size = 75, # This variable helps reduce GPU memory consumption when the text expansion technique is applied. The default values are optimized for a 24 GB GPU.
     pamr_steps = 10,
     device = 'cuda:0',
-    name_path=f'/mnt/disk2/arda_efe/graduation/ITACLIP/configs/cls_{dataset_name}.txt',
+    name_path=f'/cls_{dataset_name}.txt',
     logit_scale = 40,
 )
 
 # dataset settings
 dataset_type = 'COCOStuffDataset'
-data_root = '/mnt/disk2/arda_efe/datasets/coco/coco_stuff164k'
+data_root = ' '
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
