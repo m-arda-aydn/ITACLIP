@@ -19,4 +19,10 @@ To evaluate ITACLIP on a dataset, run the following command
 ```
 python eval.py --config ./configs/cfg_{dataset_name}.py
 ```
+## Demo
+To evaluate ITACLIP on a single image, run the following command
+```
+python demo.ipynb
+```
+
 
