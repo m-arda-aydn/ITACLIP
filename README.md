@@ -21,6 +21,15 @@ python eval.py --config ./configs/cfg_{dataset_name}.py
 ```
 ## Demo
 To evaluate ITACLIP on a single image, run the ```demo.ipynb``` Jupyter Notebook
+## Results
+With the default configurations, you should achieve the following results (mIoU).
+
+| Dataset               | mIoU  |
+| --------------------- | ----- |
+| COCO-Stuff            | 27.0  |
+| COCO-Object           | 37.7  |
+| PASCAL VOC            | 67.9  |
+| PASCAL Context        | 37.5  |
 
 
 
