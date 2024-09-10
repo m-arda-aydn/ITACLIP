@@ -31,5 +31,8 @@ With the default configurations, you should achieve the following results (mIoU)
 | PASCAL VOC            | 67.9  |
 | PASCAL Context        | 37.5  |
 
+## Acknowledgments
+This implementation builds upon [CLIP](https://github.com/openai/CLIP), [SCLIP](https://github.com/wangf3014/SCLIP), and [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). We gratefully acknowledge their valuable contributions.
+
 
 
