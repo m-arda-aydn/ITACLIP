@@ -15,7 +15,7 @@ if dataset_name in ['coco_object','voc21','context60']:
 
 access_token = YOUR_HF_TOKEN
 path = f'/ITACLIP/configs/cls_{dataset_name}.txt'
-model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+model_id = "meta-llama/Meta-Llama-3-8B-Instruct" # different LLaMa models can be used here
 txt_path = f"/ITACLIP/llama_generated_texts/{dataset_name}_synonyms.txt"
 
 with open(path, 'r') as f:
