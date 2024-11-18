@@ -14,9 +14,9 @@ if dataset_name in ['coco_object','voc21','context60']:
     bg = True
 
 access_token = YOUR_HF_TOKEN
-path = f'./configs/cls_{dataset_name}.txt'
-model_id = "meta-llama/Meta-Llama-3-8B-Instruct" # different LLama models can be used here
-txt_path = f'/mnt/disk2/arda_efe/graduation/llama_generated_texts/{dataset_name}_definitions.txt'
+path = f'/ITACLIP/configs/cls_{dataset_name}.txt'
+model_id = "meta-llama/Meta-Llama-3-8B-Instruct" # different LLaMa models can be used here
+txt_path = f'/ITACLIP/llama_generated_texts/{dataset_name}_definitions.txt'
 
 with open(path, 'r') as f:
     if bg:
