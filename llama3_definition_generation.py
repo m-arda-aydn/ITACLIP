@@ -2,7 +2,7 @@ import torch
 import os
 import time 
 
-cache_dir = '/mnt/disk2/arda_efe/graduation/.cache'
+cache_dir = YOUR_CACHE_DIR
 os.environ['HF_HOME'] = cache_dir
 print(os.getenv('HF_HOME'))
 import transformers
@@ -13,8 +13,8 @@ bg = False
 if dataset_name in ['coco_object','voc21','context60']:
     bg = True
 
-access_token = "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"
-path = f'/mnt/disk2/arda_efe/graduation/SCLIP/configs/cls_{dataset_name}.txt'
+access_token = YOUR_HF_TOKEN
+path = f'./configs/cls_{dataset_name}.txt'
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct" # different LLama models can be used here
 txt_path = f'/mnt/disk2/arda_efe/graduation/llama_generated_texts/{dataset_name}_definitions.txt'
 
