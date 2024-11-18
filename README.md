@@ -10,7 +10,7 @@ We support four segmentation benchmarks: COCO-Stuff, COCO-Object, Pascal Context
 python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
 ```
 
-Additional datasets can be seamlessly integrated following the same dataset preparation document. Additional datasets can be seamlessly integrated following the same dataset preparation document. Please modify the dataset (```data_root```) and class name (```name_path```) paths in the config files. 
+Additional datasets can be seamlessly integrated following the same dataset preparation document. Please modify the dataset (```data_root```) and class name (```name_path```) paths in the config files. 
 
 ## LLaMa Generated Texts
 For reproducibility, we provide the LLM-generated auxiliary texts. Please update the auxiliary path (```auxiliary_text_path```) in the config files. 
