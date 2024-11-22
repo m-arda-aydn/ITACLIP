@@ -24,7 +24,7 @@ Additional datasets can be seamlessly integrated following the same dataset prep
 ## LLaMa Generated Texts
 For reproducibility, we provide the LLM-generated auxiliary texts. Please update the auxiliary path (```auxiliary_text_path```) in the config files. We also provide the definition and synonym generation codes (```llama3_definition_generation.py```and ```llama3_synonym_generation.py```). For the supported datasets, running these files is unnecessary, as we have already included the LLaMA-generated texts.
 ## Evaluation
-To evaluate ITACLIP on a dataset, run the following command
+To evaluate ITACLIP on a dataset, run the following command updating the dataset_name.
 ```
 python eval.py --config ./configs/cfg_{dataset_name}.py
 ```
