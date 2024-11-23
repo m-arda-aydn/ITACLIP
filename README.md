@@ -40,6 +40,18 @@ With the default configurations, you should achieve the following results (mIoU)
 | PASCAL VOC            | 67.9  |
 | PASCAL Context        | 37.5  |
 
+## Citation
+If you find our project helpful, please consider citing our work. 
+
+```
+@article{aydin2024itaclip,
+  title={ITACLIP: Boosting Training-Free Semantic Segmentation with Image, Text, and Architectural Enhancements},
+  author={Ayd{\i}n, M Arda and {\c{C}}{\i}rpar, Efe Mert and Abdinli, Elvin and Unal, Gozde and Sahin, Yusuf H},
+  journal={arXiv preprint arXiv:2411.12044},
+  year={2024}
+}
+```
+
 ## Acknowledgments
 This implementation builds upon [CLIP](https://github.com/openai/CLIP), [SCLIP](https://github.com/wangf3014/SCLIP), and [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). We gratefully acknowledge their valuable contributions.
 
