@@ -1,4 +1,4 @@
-# ITACLIP: Boosting Training-Free Semantic Segmentation with Image, Text, and Architectural Enhancements
+# ITACLIP: Boosting Training-Free Semantic Segmentation with Image, Text, and Architectural Enhancements [CVPRW 2025]
 
 [[`paper`](https://arxiv.org/abs/2411.12044)]
 
