@@ -8,7 +8,7 @@ print(os.getenv('HF_HOME'))
 import transformers
 
 dataset_name = 'coco_object'
-assert dataset_name in ['coco_stuff','coco_object','voc20','voc21','context60','context59']
+assert dataset_name in ['coco_stuff','coco_object','voc21','context60','cityscapes']
 bg = False
 if dataset_name in ['coco_object','voc21','context60']:
     bg = True
