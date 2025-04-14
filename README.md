@@ -42,6 +42,7 @@ With the default configurations, you should achieve the following results (mIoU)
 | COCO-Object           | 37.7  |
 | PASCAL VOC            | 67.9  |
 | PASCAL Context        | 37.5  |
+| Cityscapes            | 40.2  |
 
 ## Citation
 If you find our project helpful, please consider citing our work. 
