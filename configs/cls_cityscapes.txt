@@ -1,0 +1,19 @@
+road
+sidewalk
+building
+wall
+fence
+pole
+trafficlight
+trafficsign
+vegetation
+terrain
+sky
+person, person in shirt, person in jeans, person in dress, person in sweater, person in skirt, person in jacket, person in hat
+rider
+car
+truck
+bus
+train
+motorcycle
+bicycle
