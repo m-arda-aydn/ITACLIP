@@ -48,11 +48,12 @@ With the default configurations, you should achieve the following results (mIoU)
 If you find our project helpful, please consider citing our work. 
 
 ```
-@article{aydin2024itaclip,
+@inproceedings{aydin2025itaclip,
   title={ITACLIP: Boosting Training-Free Semantic Segmentation with Image, Text, and Architectural Enhancements},
-  author={Ayd{\i}n, M Arda and {\c{C}}{\i}rpar, Efe Mert and Abdinli, Elvin and Unal, Gozde and Sahin, Yusuf H},
-  journal={arXiv preprint arXiv:2411.12044},
-  year={2024}
+  author={Ayd{\i}n, M Arda and C{\i}rpar, Efe Mert and Abdinli, Elvin and Unal, Gozde and Sahin, Yusuf H},
+  booktitle={Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition Conference},
+  pages={4142--4152},
+  year={2025}
 }
 ```
 
