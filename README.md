@@ -51,7 +51,7 @@ If you find our project helpful, please consider citing our work.
 @inproceedings{aydin2025itaclip,
   title={ITACLIP: Boosting Training-Free Semantic Segmentation with Image, Text, and Architectural Enhancements},
   author={Ayd{\i}n, M Arda and C{\i}rpar, Efe Mert and Abdinli, Elvin and Unal, Gozde and Sahin, Yusuf H},
-  booktitle={Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition Conference},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
   pages={4142--4152},
   year={2025}
 }
