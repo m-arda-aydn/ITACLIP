@@ -7,14 +7,14 @@ model = dict(
     model_name = 'ViT-B/16',
     img_engineering = True,
     dataset_name = dataset_name,
-    auxiliary_text_path = f'/ITACLIP/llama_generated_texts/{dataset_name}_synonyms.txt',
+    auxiliary_text_path = f'./ITACLIP/llama_generated_texts/{dataset_name}_synonyms.txt',
     slide_stride = 224,
     attn_self = True,
     def_coefficient = 0.05,
     img_eng_coefficient = 0.7,
     pamr_steps = 10,
     device = 'cuda:0',
-    name_path=f'/ITACLIP/configs/cls_{dataset_name}.txt',
+    name_path=f'./ITACLIP/configs/cls_{dataset_name}.txt',
     logit_scale = 40,
 )
 
