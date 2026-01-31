@@ -23,7 +23,7 @@ class ITACLIP_Segmentor(BaseSegmentor):
                     slide_stride=112, slide_crop=224, area_thd=None, img_engineering = False, auxiliary_text_path = None, 
                     attn_self = True, def_coefficient=0.2, img_eng_coefficient=0.75, width_chunk_size = None):
         
-        assert dataset_name in ['coco_stuff','coco_object','voc21','context60']
+        assert dataset_name in ['coco_stuff','coco_object','voc21','context60', 'cityscapes']
         bg = False
         if dataset_name in ['coco_object','voc21','context60']:
             bg = True # sets True when the dataset contains the "background" class.
